@@ -5,7 +5,7 @@ Python Implementation of the Feature Extraction Process in Kaldi
 This repository contains Python scripts for the feature extraction process in speech recognition systems. It is originated from Kaldi (https://github.com/kaldi-asr/kaldi), but may be more flexible for most speech recognition systems, especially end-to-end ones.
 
 ## Contents
-1. feature_extraction_template.py: a template for the feature extraction process, blocks which need to be filled by the user are commented with the keywork "BLOCK"
+1. feature_extraction_template.py: a template for the feature extraction process, blocks which need to be filled by the user are commented with the keyword "BLOCK"
 2. utils/extract_window.py: the preprocessing and window slicing functions
 3. utils/fft2melmx.py: an adopted script calculating mel weights for the conversion from the fft feature to the mel feature, see the comments in the file for details
 4. utils/deltas.py: the delta feature calculation function used in TensorFlow graphs
