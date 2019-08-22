@@ -2,7 +2,7 @@
 Python Implementation of the Feature Extraction Process in Kaldi
 
 ## Brief Description
-This repository contains Python scripts for the feature extraction process in speech recognition systems. It is originated from Kaldi (https://github.com/kaldi-asr/kaldi), but may be more flexible for most speech recognition systems, especially end-to-end ones.
+This repository contains Python scripts for the feature extraction process in speech recognition systems. It is originated from Kaldi (https://github.com/kaldi-asr/kaldi), but may be more versatile for most speech recognition systems, especially end-to-end ones.
 
 ## Contents
 1. feature_extraction_template.py: a template for the feature extraction process, blocks which need to be filled by the user are commented with the keyword "BLOCK"
